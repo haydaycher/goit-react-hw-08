@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"; // Імпорт бібліотеки prop-types
+import PropTypes from "prop-types";
 import css from "./Error.module.css";
 
 export default function Error({ children }) {
@@ -9,7 +9,6 @@ export default function Error({ children }) {
   );
 }
 
-// Валідація пропсів
 Error.propTypes = {
-  children: PropTypes.node.isRequired, // Визначаємо тип для пропса children
+  children: PropTypes.node.isRequired,
 };

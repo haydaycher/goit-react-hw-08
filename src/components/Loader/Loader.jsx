@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import PropTypes from "prop-types"; // Імпорт бібліотеки prop-types
+import PropTypes from "prop-types";
 import css from "./Loader.module.css";
 
 export default function Loader({ children }) {
@@ -23,12 +23,10 @@ export default function Loader({ children }) {
   );
 }
 
-// Валідація пропсів
 Loader.propTypes = {
-  children: PropTypes.node.isRequired, // Визначаємо тип для пропса children
+  children: PropTypes.node.isRequired,
 };
 
-// Значення за замовчуванням
 Loader.defaultProps = {
-  children: "Loading", // Значення за замовчуванням для пропса children
+  children: "Loading",
 };

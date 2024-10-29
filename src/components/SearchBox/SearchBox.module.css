@@ -1,27 +1,33 @@
 .wrapperSearch {
   box-sizing: border-box;
-  width: 440px;
+  width: 100%;
+  max-width: 440px;
   margin: 10px 0;
-  border: 2px solid rgb(40, 41, 40);
-  border-radius: 6px;
+  border: 2px solid #283129;
+  border-radius: 8px;
   padding: 12px;
-  background: #e2ecf8;
+  background: #f0f7ff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .labelSearch {
   font-size: 24px;
   font-weight: bold;
+  color: #3b3f45;
 }
 
 .inputSearch {
   width: 95%;
-  height: 30px;
+  height: 35px;
   font-size: 16px;
-  padding-left: 8px;
+  padding-left: 10px;
   margin-top: 8px;
-  border-radius: 7px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
+
 .inputSearch:focus {
   outline: none;
-  border: 2px solid blue;
+  border: 2px solid #4a90e2;
 }
