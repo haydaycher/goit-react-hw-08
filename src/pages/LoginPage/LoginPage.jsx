@@ -9,7 +9,8 @@ export default function LoginPage() {
     </div>
   );
 }
-// import { useDispatch } from "react-redux/dist/react-redux";
+// import { useDispatch } from "react-redux";
+
 // import "../../index.css";
 
 // import { Formik, Form, Field } from "formik";

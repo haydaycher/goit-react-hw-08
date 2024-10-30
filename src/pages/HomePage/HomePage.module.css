@@ -3,9 +3,19 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(to right, #1e3c72, #2a69ac);
-
+  background-image: url(https://cdn.pixabay.com/photo/2019/08/30/06/03/telephone-4440525_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   padding: 20px;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 48px;
+  text-align: center;
 }

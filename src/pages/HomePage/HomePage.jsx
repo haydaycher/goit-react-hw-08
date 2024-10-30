@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div className={css.container}>
       <h1>
-        Welcome to your PhoneBook!☎ <br />{" "}
+        Keep Your Contacts Organised! <br />{" "}
       </h1>
     </div>
   );

@@ -12,7 +12,7 @@ export default function RegisterPage() {
 
 // import { Formik, Form, Field } from "formik";
 // import "../../index.css";
-// import { useDispatch } from "react-redux/dist/react-redux";
+// import { useDispatch } from "react-redux";
 
 // const RegistrationPage = () => {
 //   const dispatch = useDispatch();
